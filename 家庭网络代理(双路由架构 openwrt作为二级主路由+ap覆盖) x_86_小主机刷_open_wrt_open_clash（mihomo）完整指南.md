@@ -1,5 +1,7 @@
 # x86 小主机刷 OpenWrt + OpenClash（Mihomo）完整指南
 
+## 运营商路由器（主路由 / 上游 NAT）→ OpenWrt（二级主路由 / DHCP / 网关 / 代理）→ 华硕路由器（AP 模式）
+
 > 适用对象：N150 / 倍控类 x86 小主机（NVMe/SSD），官方 OpenWrt 24.10.x（x86_64），安装 OpenClash（Mihomo/Meta）实现全家透明代理。
 >
 > 本文包含 **三份指南**：
